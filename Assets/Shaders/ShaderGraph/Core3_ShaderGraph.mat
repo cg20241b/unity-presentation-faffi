@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeatDistortion
-  m_Shader: {fileID: -6465566751694194690, guid: 308ed99eb936cd64a99052d356659423,
+  m_Name: Core3_ShaderGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 43280ebbfac800e4f98bec85c0432154,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,10 +24,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,15 +38,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DistortionAmount: 0.15
-    - _DistortionScale: 35
+    - _FresnelPower: 3
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RotationAmount: 1
-    - _TwirlStrength: 30
-    m_Colors: []
+    m_Colors:
+    - _FresnelColor: {r: 4.2148113, g: 1.6054459, b: 11.984313, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2742664426491864066
+--- !u!114 &8871648021836783074
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

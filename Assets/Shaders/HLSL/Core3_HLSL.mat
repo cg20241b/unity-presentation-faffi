@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Core3
+  m_Name: Core3_HLSL
   m_Shader: {fileID: 4800000, guid: dff63e0370fbaff46b9e076d7700ac03, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

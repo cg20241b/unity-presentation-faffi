@@ -1,4 +1,5 @@
-Shader "Custom/CoreHLSL"
+// You can modify the variables in the inspector in Unity
+Shader "Custom/Core_HLSL"
 {
     Properties
     {
